@@ -1,0 +1,767 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="npm/bootstrap-icons%401.8.1/font/bootstrap-icons.css">
+    <link href="npm/bootstrap%405.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/theme-style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/logo.ico">
+    <link href="aos%402.3.1/dist/aos.css" rel="stylesheet">
+<!-- Google tag (gtag.js) -->
+<script async="" src="gtag/js?id=AW-11280022412"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11280022412');
+</script>
+    <title>Anasayfa - PoyrazBilisim</title>
+  </head>
+  <body>
+    <div id="google_translate_element" style="display:none !important;"></div>
+    <!-- ==================== MODAL ==================== -->
+    <div class="modal fade" tabindex="-1" id="routeConfModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Dikkat! yönlendirme</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Sizi kurumsal sitemize yönlendiriyoruz...</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+            <button type="button" class="btn btn-primary" id="modalBtnOk">Yönlendir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="modal fade" tabindex="-1" id="routeConfModal2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Dikkat! yönlendirme</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Sizi kurumsal sitemize yönlendiriyoruz...</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+            <button type="button" class="btn btn-primary" id="modalBtnOk2">Yönlendir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==================== MODAL ==================== -->
+
+    <div class="container-fluid bg-black">
+      <div class="row">
+        <div class="col-12">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link text-white text-capitalize fw-normal d-flex align-items-center justify-content-center gap-2 fs-6 lh-1 d-none d-sm-block" href="#" type="tel"> POYRAZ2023 kodu ile GPU VDS & Dedicated ürünlerinde indirim kazanabilirsiniz.<a>
+            </a></li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-capitalize fw-normal d-flex align-items-center justify-content-center gap-2 fs-6 lh-1 d-none d-sm-block" href="#" type="tel"><i class="bi bi-headset"></i> 0850 308 5188</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-capitalize fw-normal d-flex align-items-center justify-content-center gap-2 fs-6 lh-1 d-none d-sm-block" type="email" href="#"><i class="bi bi-envelope-open"></i> <span class="__cf_email__" data-cfemail="cfbfa0b6bdaeb58fbfa0b6bdaeb5ada6a3a6bca6a2e1aca0a2e1bbbd">[email&#160;protected]</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-capitalize fw-normal d-flex align-items-center justify-content-center gap-2 fs-6 lh-1 bg-dark" href="https://panel.poyrazbilisim.com.tr/giris-yap"><i class="bi bi-box-arrow-in-right"></i> giriş yap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-capitalize fw-normal d-flex align-items-center justify-content-center gap-2 fs-6 lh-1 bg-primary" href="https://panel.poyrazbilisim.com.tr/hesap-olustur"><i class="bi bi-person-circle"></i> üye ol</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- ==================== MAIN NAV ==================== -->
+    <nav id="main-nav">
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/images/logo.png" alt="company logo">
+        </a>
+      </div>
+      <button type="button" id="show-nav">
+        <i class="bi bi-list"></i>
+      </button>
+      <ul id="main-nav-ul" data-is-open="false">
+        <li>
+          <a href="index.html">anasayfa</a>
+        </li>
+        <li class="dropdown-menu-li">
+          <a href="#">oyun sunucuları</a>
+          <ul class="sub-nav full-w">
+            <li>
+              <a href="fivem.html">
+                <div class="item-left-img">
+                  <img src="assets/images/fivem/fivem_logo.png" alt="">
+                </div>
+                <div class="item-right-content">
+                  <h3 class="text-white text-capitalize fw-light">GTA V Sunucusu</h3>
+                  <p class="text-white-50 lh-1">GTA 5 sunucunun ihtiyacını karşılayacak tüm paketlere göz at. Karar ver ve fivem sunucu kirala. Profesyonel hizmet seni bekliyor.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="minecraft.html">
+                <div class="item-left-img">
+                  <img src="assets/images/minecraft/minecraft_logo.png" alt="">
+                </div>
+                <div class="item-right-content">
+                  <h3 class="text-white text-capitalize fw-light">Minecraft Sunucusu</h3>
+                  <p class="text-white-50 lh-1">Minecraft sunucunun ihtiyacını karşılayacak tüm paketlere göz at. Karar ver ve satın al. Profesyonel hizmet seni bekliyor.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="knight.html">
+                <div class="item-left-img">
+                  <img src="assets/images/knight/logo.png" alt="">
+                </div>
+                <div class="item-right-content">
+                  <h3 class="text-white text-capitalize fw-light">KnightOnline Sunucusu</h3>
+                  <p class="text-white-50 lh-1">Yüksek performanslı KnightOnline PvP Sunucuları ile kesintisiz oyun.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="metin2.html">
+                <div class="item-left-img">
+                  <img src="assets/images/metin2/metin2_logo.png" alt="">
+                </div>
+                <div class="item-right-content">
+                  <h3 class="text-white text-capitalize fw-light">Metin2 Sunucusu</h3>
+                  <p class="text-white-50 lh-1">Yüksek Performanslı Metin2 Sunucuları! Metin2 Bilişim Sektöründe Bize Özel Dosyalarla Sorunsuz Metin2 Sunucu Kiralama Hizmetini Sunuyoruz.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="gpuserver.html">
+                <div class="item-left-img">
+                  <img src="assets/images/gpu_64.png" alt="">
+                </div>
+                <div class="item-right-content">
+                  <h3 class="text-white text-capitalize fw-light">Ekran Kartlı Sunucu</h3>
+                  <p class="text-white-50 lh-1">Yüksek performanslı Ekran Kartlı Fiziksel Oyun/Render Sunucuları ile kesintisiz performans.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="gpuvpsserver.html">
+                <div class="item-left-img">
+                  <img src="assets/images/gpu_64.png" alt="">
+                </div>
+                <div class="item-right-content">
+                  <h3 class="text-white text-capitalize fw-light">Ekran Kartlı Sanal Sunucu</h3>
+                  <p class="text-white-50 lh-1">Yüksek performanslı Ekran Kartlı Sanal Oyun/Render Sunucuları ile kesintisiz performans.</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#routeConfModal2">Dedıcated kiralama</a>
+        </li>
+        <li>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#routeConfModal">Sunucu Barındırma</a>
+        </li>
+        <li class="dropdown-menu-li">
+          <a href="#" class="currentFlag">
+            <img src="assets/images/icons/tr.svg" alt="">
+          </a>
+          <ul class="sub-nav small-w">
+            <li>
+              <a href="#" class="langLink" id="tr">
+                <img src="assets/images/icons/tr.svg" alt="">
+                <span translate="no"> TR </span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="langLink" id="en">
+                <img src="assets/images/icons/us.svg" alt="">
+                <span translate="no"> EN </span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown-menu-li">
+          <a href="javascript:void(0)" class="currentCurrency">
+            <img src="assets/images/icons/lira.svg" alt="">
+          </a>
+          <ul class="sub-nav small-w">
+            <li>
+              <a href="javascript:void(0)" class="currencyLink" id="tl">
+                <img src="assets/images/icons/lira.svg" alt="">
+                <span> Lira </span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)" class="currencyLink" id="usd">
+                <img src="assets/images/icons/dollar.svg" alt="">
+                <span> Dollar </span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <!-- ==================== MAIN NAV ==================== -->
+    <!-- ==================== MAIN SLIDER ==================== -->
+
+    <div id="main-slider" class="carousel slide shadow-lg" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#main-slider" data-bs-slide-to="0" class="active main-slider-indicator-button">
+          <img src="assets/images/knight/back.jpg" alt="">
+        </button>
+        <button type="button" data-bs-target="#main-slider" data-bs-slide-to="1" class="main-slider-indicator-button">
+          <img src="assets/images/fivem/back.png" alt="">
+        </button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/knight/back.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-1 text-upper">Yeni Nesil Donanımlar!</h5>
+            <p class="lead">Sizlere sunduğumuz bir çok ürünümüz tamamen yeni nesil donanımlardan oluşmaktadır. V2 - V3 - V4 işlemcili DDR4 yeni nesil RAM ve NVMe M2 diskler ile kesintisiz performans ve yüksek hız!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/fivem/back.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-1 text-upper">Sizler de DDoS Saldırılarından sıkıldınız mı?</h5>
+            <p class="lead">Yüksek Anti-DDoS korumamız ile tüm uygulamalarınız korumamız altında! Oyunlarınıza özel Anti-DDoS hizmeti ve gelen attack türüne göre açık kapatma ayrıcalığı hizmetinizde.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#main-slider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#main-slider" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- ==================== MAIN SLIDER ==================== -->
+
+    <!-- ==================== MAIN ==================== -->
+    <main class="pb-5" id="main">
+      <!-- ==================== HERO GAMES ==================== -->
+      <section data-aos="fade-down">
+        <div class="container hero-games-container mt-5">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="text-white text-center text-uppercase fs-3 fw-bold">Oyun Sunucusu Paketlerimiz</h2>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6">
+              <div class="card bg-dark text-white game-card shadow-lg">
+                <img src="assets/images/knight/back.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <div class="content">
+                    <h5 class="card-title text-uppercase fs-3">K.O Sunucuları</h5>
+                    <p class="card-text lh-1">
+                      Yüksek performanslı KnightOnline PvP Sunucuları ile kesintisiz oyun.
+                    </p>
+                    <a href="knight.html" role="button" aria-pressed="true">incele <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card bg-dark text-white game-card shadow-lg">
+                <img src="assets/images/metin2/back.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <div class="content">
+                    <h5 class="card-title text-uppercase fs-3">Metin2</h5>
+                    <p class="card-text lh-1">
+                      Yüksek Performanslı Metin2 Sunucuları! Metin2 Bilişim Sektöründe Bize Özel Dosyalarla Sorunsuz Metin2 Sunucu Kiralama Hizmetini Sunuyoruz.
+                    </p>
+                    <a href="metin2.html" role="button" aria-pressed="true">incele <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card bg-dark text-white game-card shadow-lg">
+                <img src="assets/images/minecraft/back.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <div class="content">
+                    <h5 class="card-title text-uppercase fs-3">Minecraft</h5>
+                    <p class="card-text lh-1">
+                      Minecraft sunucunun ihtiyacını karşılayacak tüm paketlere göz at. Karar ver ve satın al. Profesyonel hizmet seni bekliyor.
+                    </p>
+                    <a href="minecraft.html" role="button" aria-pressed="true">incele <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card bg-dark text-white game-card shadow-lg">
+                <img src="assets/images/fivem/back.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <div class="content">
+                    <h5 class="card-title text-uppercase fs-3">GtaV: Fivem</h5>
+                    <p class="card-text lh-1">
+                      GTA 5 sunucunun ihtiyacını karşılayacak tüm paketlere göz at. Karar ver ve fivem sunucu kirala. Profesyonel hizmet seni bekliyor.
+                    </p>
+                    <a href="fivem.html" role="button" aria-pressed="true">incele <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== HERO GAMES ==================== -->
+
+      <!-- ==================== WHY CHOOSE US ==================== -->
+      <section data-aos="fade-down">
+        <div class="container why-choose-us mt-5">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="text-white text-center text-uppercase fs-3 fw-bold">neden bizi seçmelisiniz</h2>
+            </div>
+          </div>
+          <div class="row why-choose-us-row">
+            <div class="col-lg-4 col-md-6">
+              <div class="feature d-flex flex-column shadow-lg">
+                <div class="title-icon text-primary">
+                  <i class="bi bi-activity"></i>
+                </div>
+                <div class="content">
+                  <h3 class="text-white text-capitalize lh-1">Güçlü Altyapı</h3>
+                  <p class="text-muted lh-1">En az 20G uplink üzerinden tüm sunuculara sınırlama olmaksızın en az 1 Gbp/s bağlantı noktası sağlıyoruz. Paylaşılan bir hattan ayırt edilemeyen bağlantı noktası hızı.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="feature d-flex flex-column shadow-lg">
+                <div class="title-icon text-primary">
+                  <i class="bi bi-shield-fill-check"></i>
+                </div>
+                <div class="content">
+                  <h3 class="text-white text-capitalize lh-1">DDoS Koruması</h3>
+                  <p class="text-muted lh-1">Firewall sistemimizi denediniz mi? Çağ gerisi kalmış Mikrotik ve türevi sistemlerden sizleri kurtarıyoruz. Tamamen kendi geliştirdiğimiz PoyrazDDoS Firewall sistemimiz ile artık DDoS probleminiz olmayacak. Her türlü Anti-DDoS gereksiniminizi karşılayacak yeni sistemimiz hizmetinizde.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="feature d-flex flex-column shadow-lg">
+                <div class="title-icon text-primary">
+                  <i class="bi bi-speedometer"></i>
+                </div>
+                <div class="content">
+                  <h3 class="text-white text-capitalize lh-1">99% Uptime</h3>
+                  <p class="text-muted lh-1">Minimum duruş süresi ve önceden planlanmış bakım çalışmaları ile uptime oranımız her zaman en yüksek seviyededir. Kesintisiz hizmet almanın kolay yolu.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== WHY CHOOSE US ==================== -->
+
+      <!-- ==================== HOME CONTACT ==================== -->
+      <section data-aos="fade-down">
+        <div class="container home-contact mt-5 mb-5">
+          <div class="row">
+            <div class="col-12 mt-5">
+              <div class="content d-flex shadow-lg">
+                <div class="contact-icon d-flex align-items-center justify-content-center">
+                  <img src="assets/images/svg/Customer%20service_Flatline.svg" alt="">
+                </div>
+                <div class="text px-3">
+                  <h3 class="text-white text-uppercase">
+                    bize soru sorabilirsin
+                  </h3>
+                  <p class="text-muted lh-1 m-0">
+                  Aradığınız paketi bulamadınız mı? Farklı bir konfigürasyon mu istiyorsunuz? Aklınıza takılan her türlü soruda ve sorunda tecrübeli ekibimiz her zaman yanınızda! İletişim kanallarımızdan herhangi birini kullanarak bizimle bağlantı kurabilirsiniz.
+                  </p>
+                  <div class="contact-links mt-4">
+                    <a class="btn btn-primary d-inline-flex gap-3" href="#" role="button">
+                      <i class="bi bi-telephone-forward"></i> +90 850 308 5188
+                    </a>
+                    <a class="btn btn-primary d-inline-flex gap-3" href="#" role="button">
+                      <i class="bi bi-envelope-plus"></i> <span class="__cf_email__" data-cfemail="21514e5853405b61514e5853405b43484d4852484c0f424e4c0f5553">[email&#160;protected]</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== HOME CONTACT ==================== -->
+
+      <!-- ==================== FAQ ==================== -->
+      <section data-aos="fade-down">
+        <div class="container faq">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="text-white text-center text-uppercase fs-3 fw-bold">
+                 Sıkça Sorulan Sorular
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item shadow-lg">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button text-white text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                  Sunucu satın aldım, ne zaman kurulur?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p class="text-white">
+                    Sunucularımız otomasyon sistemi ile 5-10 dakika içerisinde aktif! Paket türü, yapılandırma ve işletim sistemine göre teslimat süreleri değişiklik gösterebilir.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <br>
+            </div>
+            
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item shadow-lg">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button text-white text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                  Anti-DDoS koruması ücretsiz mi?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse hide" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p class="text-white">
+                    Standart düzey Anti-DDoS hizmeti her pakette mevcut olup tamamen ücretsizdir. Oyununuza özel yüksek kapasiteli ve komplike anti-ddos hizmetlerimiz, yapılan işleme göre ücretli/ücretsiz olabilmektedir.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <br>
+            </div>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item shadow-lg">
+                <h2 class="accordion-header" id="headingTr">
+                  <button class="accordion-button text-white text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTr">
+                  Oyun içi desteğiniz bulunuyor mu?
+                  </button>
+                </h2>
+                <div id="collapseTr" class="accordion-collapse collapse hide" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p class="text-white">
+                    Oyun içerisindeki yapılacak işleme göre desteğimiz bulunmaktadır.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>      <!-- ==================== FAQ ==================== -->
+
+      <!-- ==================== REVIEWS ==================== -->
+      <section data-aos="fade-down">
+        <div class="container mt-5 reviews">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="text-white text-center text-uppercase fs-3 fw-bold">kullanıcı yorumları</h2>
+            </div>
+          </div>
+          <div id="carouselExampleFade" class="carousel slide carousel-fade review shadow-lg" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active d-flex align-items-center justify-content-center">
+                <div class="review-content">
+                  <div class="title d-flex align-items-center justify-content-center">
+                    <i class="bi bi-chat-square-quote text-primary"></i>
+                  </div>
+                  <blockquote class="blockquote text-center">
+                    <p class="lh-1 text-white lead">En hızlı sunucular, en kaliteli yönetim paneli ve en iyi müşteri hizmetleri.</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">Ali Aksa</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="carousel-item d-flex align-items-center justify-content-center">
+                <div class="review-content">
+                  <div class="title d-flex align-items-center justify-content-center">
+                    <i class="bi bi-chat-square-quote text-primary"></i>
+                  </div>
+                  <blockquote class="blockquote text-center">
+                    <p class="lh-1 text-white lead">Eşsiz teknik desteği ve güçlü alt yapısıyla, yıllardır tüm ihtiyaçlarımı karşılayan tek firma.</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">Mehmet Kaya</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== REVIEWS ==================== -->
+
+      <!-- ==================== OUR TECHNOLOGIES ==================== -->
+      <section data-aos="fade-down">
+        <div class="container our-technologies mt-5">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="text-white text-center text-uppercase fs-3 fw-bold">teknolojilerimiz</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-6 mb-2 tech-card">
+              <div class="logo shadow-lg">
+                <img src="assets/images/logos/juniper.png" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="col-lg-3 col-6 mb-2 tech-card">
+              <div class="logo shadow-lg">
+                <img src="assets/images/logos/turkcell.png" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="col-lg-3 col-6 mb-2 tech-card">
+              <div class="logo shadow-lg">
+                <img src="assets/images/logos/turktelekom.png" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="col-lg-3 col-6 mb-2 tech-card">
+              <div class="logo shadow-lg">
+                <img src="assets/images/logos/VoxilityLogo.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== OUR TECHNOLOGIES ==================== -->
+    </main>
+    <!-- ==================== MAIN ==================== -->
+
+        <!-- ==================== FOOTER ==================== -->
+
+    <footer id="footer">
+
+      <div class="container mt-5">
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-left">
+
+            <img src="assets/images/logo.png" alt="">
+
+            <h4 class="text-primary text-uppercase fs-5 fw-normal mt-5">adresimiz</h4>
+
+            <p class="text-white text-uppercase">
+
+TÜBİTAK Gebze Yerleşkesi Teknoloji Geliştirme Bölgesi Arge ve İnovasyon binası Kat:2 Dış Kapı No:26 
+Barış Mah. Koşu yolu Cad. İç kapı : 49 Gebze/KOCAELİ
+            </p>
+
+            <ul>
+
+              <li>
+
+                <a href="#">
+
+                  <span><i class="bi bi-telephone"></i></span>
+
+                  <span>850 308 5188</span>
+
+                </a>
+
+              </li>
+
+              <li>
+
+                <a href="#">
+
+                  <span><i class="bi bi-envelope"></i></span>
+
+                  <span><span class="__cf_email__" data-cfemail="21514e5853405b61514e5853405b43484d4852484c0f424e4c0f5553">[email&#160;protected]</span></span>
+
+                </a>
+
+              </li>
+
+              <li class="bg-white d-flex align-items-center align-items-center justify-content-center p-2 rounded">
+
+                  <img src="assets/images/tubitak_logo.jpg" alt="" style="width:100px; height:120px;">
+
+                  </li>
+
+            </ul>
+
+            <h4 class="text-primary text-uppercase fs-5 fw-normal mt-5">sosyal medya</h4>
+
+            <div class="footer-social-links">
+
+              <a href="https://www.facebook.com/PoyrazBilisim" class="facebook">
+
+                <i class="bi bi-facebook"></i>
+
+              </a>
+
+              <a href="https://wa.me/+908503085188" class="whatsapp">
+
+                <i class="bi bi-whatsapp"></i>
+
+              </a>
+
+              <a href="#" class="discord">
+
+                <i class="bi bi-discord"></i>
+
+              </a>
+
+              <a href="cdn-cgi/l/email-protection.html#fd8d92848f9c87bd8d92848f9c879f9491948e9490d39e9290d3898f" class="mail">
+
+                <i class="bi bi-envelope"></i>
+
+              </a>
+
+              <a href="https://www.instagram.com/poyrazsirketlergrubu/" class="instagram">
+
+                <i class="bi bi-instagram"></i>
+
+              </a>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 col-md-6 footer-right">
+
+            <div class="row">
+
+              <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+
+                <h4 class="text-primary text-uppercase fs-5 fw-normal mt-5">Oyun Sunucuları</h4>
+
+                <ul class="list-group">
+
+                  <li>
+
+                    <a href="knight.html" class="text-white text-capitalize"><i class="bi bi-chevron-right text-primary"></i> <span>KnightOnline Sunucu</span></a>
+
+                  </li>
+
+                  <li>
+
+                    <a href="metin2.html" class="text-white text-capitalize"><i class="bi bi-chevron-right text-primary"></i> <span>Metin2 Sunucu</span></a>
+
+                  </li>
+
+                  <li>
+
+                    <a href="fivem.html" class="text-white text-capitalize"><i class="bi bi-chevron-right text-primary"></i> <span>Fivem Sunucu</span></a>
+
+                  </li>
+
+                  <li>
+
+                    <a href="minecraft.html" class="text-white text-capitalize"><i class="bi bi-chevron-right text-primary"></i> <span>Minecraft Sunucu</span></a>
+
+                  </li>
+
+                </ul>
+
+              </div>
+
+              <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+
+                <h4 class="text-primary text-uppercase fs-5 fw-normal mt-5">Kurumsal</h4>
+
+                <ul class="list-group">
+
+                  <li>
+
+                    <a href="info.html" class="text-white text-capitalize"><i class="bi bi-chevron-right text-primary"></i> <span>Hakkımızda</span></a>
+
+                  </li>
+
+                  <li>
+
+                    <a href="info.html" class="text-white text-capitalize"><i class="bi bi-chevron-right text-primary"></i> <span>İletişim</span></a>
+
+                  </li>
+
+                </ul>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-12 text-center mt-3">
+
+            <p class="lead text-white-50 mb-0 fs-6">Copyright © 2022 Tüm Hakları Saklıdır.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <!--Start of Tawk.to Script-->
+
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+
+(function(){
+
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+
+s1.async=true;
+
+s1.src='https://embed.tawk.to/5a11c0b9198bd56b8c03c0e5/default';
+
+s1.charset='UTF-8';
+
+s1.setAttribute('crossorigin','*');
+
+s0.parentNode.insertBefore(s1,s0);
+
+})();
+
+</script>
+
+<!--End of Tawk.to Script-->
+
+    <script src="npm/bootstrap%405.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="aos%402.3.1/dist/aos.js"></script>
+
+    <script src="assets/js/theme.js"></script>
+
+    <script type="text/javascript" src="translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  </body>
+</html>
